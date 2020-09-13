@@ -1,1 +1,5 @@
-ignore
+*.class
+.project
+.classpath
+.settings/
+.metadata
