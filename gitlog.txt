@@ -1,0 +1,73 @@
+commit 8031d3c7a9f84c7c4c43f359f9c6a9b2baebcc28
+Author: Mohammed Alnasser <w-r-t-2002@hotmail.com>
+Date:   Mon Sep 14 16:08:38 2020 -0600
+
+    added the file readme.txt
+
+commit 60f2d03d2f56cceb7f195ee6a0c6f3e3891684ff
+Author: Mohammed Alnasser <w-r-t-2002@hotmail.com>
+Date:   Mon Sep 14 16:07:15 2020 -0600
+
+    minor edits, added comments and readme.txt
+
+commit def6079fd11916d929617cadedc700f3b7245e96
+Author: Mohammed Alnasser <w-r-t-2002@hotmail.com>
+Date:   Mon Sep 14 15:29:20 2020 -0600
+
+    added redlight alert, code works
+
+commit d2098cb6915d14fa9dc1d903cf77c3b2e3ee92e4
+Author: Mohammed Alnasser <w-r-t-2002@hotmail.com>
+Date:   Mon Sep 14 14:50:40 2020 -0600
+
+    wrote updateTemperature method
+
+commit b32e401768b465a4e57bc0a23627c252891b2a6d
+Author: Mohammed Alnasser <w-r-t-2002@hotmail.com>
+Date:   Sat Sep 12 21:43:52 2020 -0600
+
+    added plus and minus func for burner
+
+commit c41d953f7c0462399aed0bc7c6111856e6bdb382
+Author: Mohammed Alnasser <w-r-t-2002@hotmail.com>
+Date:   Sat Sep 12 20:48:55 2020 -0600
+
+    updated all files
+
+commit 3537ffd0570350d4f4c3d55a41964c871d2ca99b
+Merge: ba33899 6edb61f
+Author: Mohammed Alnasser <w-r-t-2002@hotmail.com>
+Date:   Sat Sep 12 20:47:01 2020 -0600
+
+    Merge branch 'master' of https://github.com/amkim1/C06-Stove
+
+commit ba33899164cb862cd489a8683049f573ec9582db
+Author: Mohammed Alnasser <w-r-t-2002@hotmail.com>
+Date:   Sat Sep 12 20:46:44 2020 -0600
+
+    added settings.java
+
+commit 6edb61f4755ae287e89acf971a633470e632c325
+Merge: a34bc25 53cac14
+Author: Alex Kim <amkim@mymail.mines.edu>
+Date:   Sat Sep 12 20:45:08 2020 -0600
+
+    Fixing merge conflicts
+
+commit a34bc2517a84c751ead515177d57bd09f3133ce0
+Author: Alex Kim <amkim@mymail.mines.edu>
+Date:   Sat Sep 12 20:43:30 2020 -0600
+
+    Temperature enum
+
+commit 53cac1430eed6c72340483e034d60334d66bc44a
+Author: Mohammed Alnasser <w-r-t-2002@hotmail.com>
+Date:   Sat Sep 12 20:42:55 2020 -0600
+
+    made settings enum
+
+commit 9bcf5d113b44d4659d5b7e8f67a29b88291dea9a
+Author: Alex Kim <amkim@mymail.mines.edu>
+Date:   Sat Sep 12 20:06:42 2020 -0600
+
+    Init commit
