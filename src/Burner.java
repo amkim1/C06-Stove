@@ -39,6 +39,8 @@ public class Burner {
 		case MEDIUM:
 			settings = Settings.HIGH;
 			break;
+		case HIGH:
+			break;
 		}
 
 	}
@@ -56,23 +58,54 @@ public class Burner {
 		case LOW:
 			settings = Settings.OFF;
 			break;
+		case OFF:
+			break;
 		}
 
 	}
 
 	public void updateTemperature() {
-		if(timer!=0) {
-			timer--;
+		timer--;
+		if(timer>0) {
 			return;
 		}
+		
 		if(settings.ordinal()>temperature.ordinal()) {
 			temperature = temperature.getNext();
 		} else if(settings.ordinal()<temperature.ordinal()) {
 			temperature = temperature.getPrevious();
 		}
+		
+		if(settings.ordinal()!=temperature.ordinal() ) {
+			timer = TIME_DURATION;
+		}
 
-	};
+	}
 
+	public void display() {
+		System.out.print("[" + settings + "].....");
+		switch(temperature) {
+		
+		case BLAZING:
+			System.out.println("VERY HOT! DON'T TOUCH");
+			break;
+		case HOT:
+			System.out.println("CAREFUL");
+			break;
+		case WARM:
+			System.out.println("warm");
+			break;
+		case COLD:
+			System.out.println("coool");
+			break;
+			
+		}
+	}
 
+	public boolean isBlazing() {
+		return temperature==Temperature.BLAZING;
+	}
+	
+	
 
 }
