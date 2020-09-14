@@ -30,7 +30,7 @@ public class Stove {
 	 **** You must write the following method ****
 	 */
 	public void displayStove() {
-
+		
 	}
 	
 	/**
@@ -93,34 +93,31 @@ public class Stove {
 		
 		Stove stove = new Stove();
 		
-		stove.burners.add(new Burner());
-		stove.burners.get(0).plusButton();
-		stove.burners.get(0).plusButton();
 		
-//		System.out.println("Beginning stove state ");
-//		// trun the burners up
-//		stove.displayStove();
-//		stove.turnBurnersUp();
-//		stove.timePassing(6);
-//		System.out.println("\nStove after burners turned up ");
-//		
-//		// adjust the burners
-//		stove.displayStove();
-//		stove.adjustBurners();
-//		stove.timePassing(2);
-//		System.out.println("\nStove after burners adjusted ");
-//		
-//		// some more adjustment test
-//		stove.displayStove();
-//		stove.moreBurnerAdjustments();
-//		stove.timePassing(1);
-//		
-//		// Ensure temperatures don't update till time has passed
-//		System.out.println("\nStove waiting for time to elapse ");
-//		stove.displayStove();
-//		stove.timePassing(1);
-//		System.out.println("\nStove in final state ");
-//		stove.displayStove();	
+		System.out.println("Beginning stove state ");
+		// trun the burners up
+		stove.displayStove();
+		stove.turnBurnersUp();
+		stove.timePassing(6);
+		System.out.println("\nStove after burners turned up ");
+		
+		// adjust the burnerss
+		stove.displayStove();
+		stove.adjustBurners();
+		stove.timePassing(2);
+		System.out.println("\nStove after burners adjusted ");
+		
+		// some more adjustment test
+		stove.displayStove();
+		stove.moreBurnerAdjustments();
+		stove.timePassing(1);
+		
+		// Ensure temperatures don't update till time has passed
+		System.out.println("\nStove waiting for time to elapse ");
+		stove.displayStove();
+		stove.timePassing(1);
+		System.out.println("\nStove in final state ");
+		stove.displayStove();	
 	}
 
 }
