@@ -6,6 +6,9 @@ import java.util.ArrayList;
  * @author Mark Baldwin
  * @author Cyndi Rader
  * 
+ * @author Mohammed Alnasser
+ * @author Alex Kim
+ * 
  * Purpose: Simulates a stove
  */
 public class Stove {
@@ -26,18 +29,18 @@ public class Stove {
 	
 	/**
 	 * Display the current stove status
-	 *  
-	 **** You must write the following method ****
 	 */
 	public void displayStove() {
 		boolean redLight = false;
+		
+		// display each burner and check if any of them is blazing
 		for(Burner b: burners) {
 			b.display();
-			
 			if(b.isBlazing()) {
 				redLight = true;
 			}
 		}
+		
 		if(redLight) {
 			System.out.println("RED LIGHT - HOT BURNER ALERT");
 		}
@@ -102,7 +105,6 @@ public class Stove {
 		
 		
 		Stove stove = new Stove();
-		
 		
 		System.out.println("Beginning stove state ");
 		// trun the burners up
